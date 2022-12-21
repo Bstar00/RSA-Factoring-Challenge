@@ -13,7 +13,7 @@ check_factor()
                         then
                                 num2=$(echo $a*$num2 | bc)
                         fi
-                        count=$((count + 1))
+                       count=$((count + 1))
                 done
         else
                 num2=$3
